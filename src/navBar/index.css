@@ -1,0 +1,30 @@
+.navBar{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border: solid 1px var(--dark-blue);
+    border-radius: 10px;
+    background-color: var(--light-blue);
+}
+
+.navElement{
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+}
+
+.navElement a{
+    text-decoration: none;
+    color: black;
+    font-family: Satoshi-Variable;
+    font-weight: 600;
+}
+
+.navElement a:hover{
+    text-decoration: none;
+    color: var(--dark-blue);
+}

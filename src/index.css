@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --dark-blue: #0878FF;
+  --light-blue: #E7F6FD;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Satoshi-Variable";
+  src: local("Satoshi-Variable"), url(./fonts/Satoshi-Variable.ttf) format('opentype');
+}
+@font-face {
+  font-family: "Satoshi-VariableItalic";
+  src: local("Satoshi-VariableItalic"), url(./fonts/Satoshi-VariableItalic.ttf) format('opentype');
+}
+@font-face {
+  font-family: "Gambetta-Variable";
+  src: local("Gambetta-Variable"), url(./fonts/Gambetta-Variable.ttf) format('opentype');
+}
+@font-face {
+  font-family: "Gambetta-VariableItalic";
+  src: local("Gambetta-VariableItalic"), url(./fonts/Gambetta-VariableItalic.ttf) format('opentype');
+}
+
+h1{
+  font-family: Satoshi-Variable;
+  font-size: 140px;
+  font-weight: 450;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.subHead1{
+  font-family: Gambetta-VariableItalic;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.subHead2{
+  font-family: Gambetta-VariableItalic;
+  font-size: 24px;
+  font-weight: 300;
 }

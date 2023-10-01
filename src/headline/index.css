@@ -1,0 +1,5 @@
+.headline{
+    display: grid;
+    grid-template-areas: 
+    "fill";
+}
