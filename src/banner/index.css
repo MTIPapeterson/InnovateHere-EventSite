@@ -1,0 +1,38 @@
+.banner{
+    margin-top: 40px;
+    background-color: var(--light-blue);
+    border-top: solid 1pt var(--dark-blue);
+    border-bottom: solid 1pt var(--dark-blue);
+    display: grid;
+    justify-content: start;
+    grid-template-columns: repeat(auto-fill, 550px);
+}
+
+.bannerElement{
+    border-left: solid 1pt var(--dark-blue);
+    margin-left: 110px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    max-width: 500px;
+}
+
+.bannerElement h2{
+    margin-bottom: 0;
+    margin-bottom: 0;
+    max-width: 300px;
+    margin-top: 0;
+    color: var(--dark-blue);
+}
+
+@media screen and (max-width: 1000px) {
+
+    .banner{
+        grid-template-columns: repeat(auto-fill, 420px);
+    }
+
+    .bannerElement{
+        margin-left: 15px;
+    }
+    
+}

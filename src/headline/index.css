@@ -1,5 +1,28 @@
 .headline{
-    display: grid;
-    grid-template-areas: 
-    "fill";
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.headline img{
+    z-index: 0;
+    max-width: 1300px;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .headline img{
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .headline img{
+        width: 900px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .headline img{
+        width: 700px;
+    }
 }

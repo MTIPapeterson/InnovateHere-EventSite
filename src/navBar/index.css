@@ -1,7 +1,8 @@
 .navBar{
+    z-index: 1;
     position: fixed;
     top: 15px;
-    right: 15px;
+    right: 6%;
     display: flex;
     align-items: center;
     justify-items: center;
@@ -21,7 +22,8 @@
     text-decoration: none;
     color: black;
     font-family: Satoshi-Variable;
-    font-weight: 600;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .navElement a:hover{

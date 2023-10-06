@@ -1,0 +1,18 @@
+.infoHeader{
+    margin-bottom: 20px;
+}
+
+.infoMessage{
+    margin-top: 0;
+    color: var(--dark-blue);
+    border-left: solid 1pt var(--dark-blue);
+    max-width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoMessage h2 {
+    max-width: 200px;
+}

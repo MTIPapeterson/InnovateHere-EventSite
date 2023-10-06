@@ -1,0 +1,43 @@
+.eventContainer{
+    border-bottom: solid 1px var(--dark-blue);
+    display: grid;
+    grid-template-areas: "title description";
+    align-items: start;
+    justify-content: center;
+}
+
+.eventTitle{
+    grid-area: title;
+    max-width: 250px;
+    padding-right: 70px;
+    padding-left: 155px;
+    padding-bottom: 40px;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.eventDescription{
+    grid-area: description;
+    max-width: 600px;
+    margin-top: 30px;
+    padding-bottom:40px;
+}
+
+@media screen and (max-width: 1000px){
+    .eventContainer{
+        grid-template-areas: 
+        "title" 
+        "description";
+        justify-content: left;
+    }
+
+    .eventTitle{
+        grid-area: title;
+        padding-left: 0;
+        margin-bottom: 0px;
+    }
+
+    .eventDescription{
+        margin-top: 0px;
+    }
+}

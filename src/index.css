@@ -20,16 +20,34 @@
   src: local("Gambetta-VariableItalic"), url(./fonts/Gambetta-VariableItalic.ttf) format('opentype');
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+}
+
 h1{
   font-family: Satoshi-Variable;
-  font-size: 140px;
-  font-weight: 450;
+  font-size: 100px;
+  font-weight: 1;
 }
 
 h2{
+  font-family: Satoshi-Variable;
   text-transform: uppercase;
   font-size: 32px;
   font-weight: 300;
+}
+
+h3{
+  font-family: Satoshi-Variable;
+  font-weight: 600;
+}
+
+p{
+  font-family: Satoshi-Variable;
 }
 
 .subHead1{
@@ -43,3 +61,4 @@ h2{
   font-size: 24px;
   font-weight: 300;
 }
+

@@ -1,0 +1,5 @@
+.footer{
+    border-top: solid 1pt var(--dark-blue);
+    background-color: var(--light-blue);
+    height: 300px;
+}

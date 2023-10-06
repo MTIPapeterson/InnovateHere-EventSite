@@ -12,9 +12,9 @@ function NavElement({title, location}){
 export default function NavBar() {
   return (
     <div className='navBar'>
-        <NavElement title="Events" location="events"/>
-        <NavElement title="Schedual" location="schedual"/>
-        <NavElement title="About" location="about"/>
+        <NavElement title="About" location="#about"/>
+        <NavElement title="Events" location="#events"/>
+        <NavElement title="Schedule" location="#schedule"/>
     </div>
   )
 }
