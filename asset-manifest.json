@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/InnovateHere-EventSite/static/css/main.61e037ca.css",
+    "main.js": "/InnovateHere-EventSite/static/js/main.f505c3c4.js",
+    "static/media/Gambetta-VariableItalic.ttf": "/InnovateHere-EventSite/static/media/Gambetta-VariableItalic.00529312aac46dc1f1ac.ttf",
+    "static/media/Satoshi-VariableItalic.ttf": "/InnovateHere-EventSite/static/media/Satoshi-VariableItalic.9519fea9567e2405bc08.ttf",
+    "static/media/Satoshi-Variable.ttf": "/InnovateHere-EventSite/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
+    "static/media/Gambetta-Variable.ttf": "/InnovateHere-EventSite/static/media/Gambetta-Variable.ec21cc58129f1c5c1527.ttf",
+    "static/media/Titlecard_wide.svg": "/InnovateHere-EventSite/static/media/Titlecard_wide.e7467c8a7faf3d731463d5b7e79c8fd3.svg",
+    "static/media/Titlecard_mobile.svg": "/InnovateHere-EventSite/static/media/Titlecard_mobile.eb3116e28244bdf28f055f188b046aec.svg",
+    "static/media/Titlecard_mid.svg": "/InnovateHere-EventSite/static/media/Titlecard_mid.9b77c273e5f784e5754b01a3f8ff79ea.svg",
+    "index.html": "/InnovateHere-EventSite/index.html",
+    "main.61e037ca.css.map": "/InnovateHere-EventSite/static/css/main.61e037ca.css.map",
+    "main.f505c3c4.js.map": "/InnovateHere-EventSite/static/js/main.f505c3c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61e037ca.css",
+    "static/js/main.f505c3c4.js"
+  ]
+}
