@@ -7,8 +7,6 @@ import titlecard_mobile from "./assets/Titlecard_mobile.svg"
 
 function TitleCard({screenSize}){
     const [currentImage, setCurrentImage] = useState(titlecard_wide)
-    
-    console.log(screenSize)
 
     function handleImageSize(screenSize){
       if (screenSize > 1100) {setCurrentImage(titlecard_wide)}

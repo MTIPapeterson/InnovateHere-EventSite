@@ -16,3 +16,9 @@
 .infoMessage h2 {
     max-width: 200px;
 }
+
+@media screen and (max-width: 500px) {
+    .infoMessage{
+        max-width: 330px;
+    }
+}

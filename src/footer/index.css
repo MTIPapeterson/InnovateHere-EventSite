@@ -1,5 +1,38 @@
 .footer{
     border-top: solid 1pt var(--dark-blue);
     background-color: var(--light-blue);
-    height: 300px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+.footerContainer{
+    margin-left: 70px;
+    display: grid;
+    grid-template-areas: 
+    "logoHeader info"
+    "logos info";
+
+}
+
+.logoHeader{
+    grid-area: logoHeader;
+}
+
+.footerLogos{
+    grid-area: logos;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    align-items: last baseline;
+    justify-content: center;
+}
+
+.footerLogos img{
+    max-width: 130px;
+}
+
+@media screen and (max-width: 900px) {
+    .footerContainer{
+        margin-left: 15px;
+    }
+
 }

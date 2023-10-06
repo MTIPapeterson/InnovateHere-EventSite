@@ -42,7 +42,7 @@ function App() {
         subHead={""} subDescription={""}/>
       </div>
       <div className='infoCards' id="schedule">
-        <InfoCard title="Schedule" message="to be announced"/>
+        <InfoCard title="Schedule" message="to be announced" info={""}/>
         <InfoCard title="Contact" message="contact"/>
       </div>
       <Footer/>
