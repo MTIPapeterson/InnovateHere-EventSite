@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/InnovateHere-EventSite/static/css/main.26bfd8a4.css",
-    "main.js": "/InnovateHere-EventSite/static/js/main.8e4a4d16.js",
+    "main.css": "/InnovateHere-EventSite/static/css/main.9b776b6f.css",
+    "main.js": "/InnovateHere-EventSite/static/js/main.a26a1f83.js",
     "static/media/Gambetta-VariableItalic.ttf": "/InnovateHere-EventSite/static/media/Gambetta-VariableItalic.00529312aac46dc1f1ac.ttf",
     "static/media/Satoshi-VariableItalic.ttf": "/InnovateHere-EventSite/static/media/Satoshi-VariableItalic.9519fea9567e2405bc08.ttf",
     "static/media/Satoshi-Variable.ttf": "/InnovateHere-EventSite/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
     "static/media/Gambetta-Variable.ttf": "/InnovateHere-EventSite/static/media/Gambetta-Variable.ec21cc58129f1c5c1527.ttf",
-    "static/media/Titlecard_mobile.svg": "/InnovateHere-EventSite/static/media/Titlecard_mobile.884c193bf6bbd968942e5906fd00f251.svg",
-    "static/media/Titlecard_wide.svg": "/InnovateHere-EventSite/static/media/Titlecard_wide.48851058753a48b7e934a17de9c476ed.svg",
-    "static/media/Titlecard_mid.svg": "/InnovateHere-EventSite/static/media/Titlecard_mid.2d4f6f7a54db1b7fd8a5d3ebf73b9d7f.svg",
+    "static/media/Titlecard_mobile.svg": "/InnovateHere-EventSite/static/media/Titlecard_mobile.da79f8aa01a6dbe9c137f8456b9e2348.svg",
+    "static/media/Titlecard_wide.svg": "/InnovateHere-EventSite/static/media/Titlecard_wide.06c2f90a81cc7cba26d0e84acdb48720.svg",
+    "static/media/Titlecard_mid.svg": "/InnovateHere-EventSite/static/media/Titlecard_mid.9360eeec5ce4381a60695f5b5cbe27b0.svg",
     "static/media/MTIP_Logo.png": "/InnovateHere-EventSite/static/media/MTIP_Logo.8926b1195ca53bd1f5cd.png",
     "static/media/tecklinkLogo.webp": "/InnovateHere-EventSite/static/media/tecklinkLogo.85b8c56bb1ac3b12e192.webp",
     "index.html": "/InnovateHere-EventSite/index.html",
-    "main.26bfd8a4.css.map": "/InnovateHere-EventSite/static/css/main.26bfd8a4.css.map",
-    "main.8e4a4d16.js.map": "/InnovateHere-EventSite/static/js/main.8e4a4d16.js.map"
+    "main.9b776b6f.css.map": "/InnovateHere-EventSite/static/css/main.9b776b6f.css.map",
+    "main.a26a1f83.js.map": "/InnovateHere-EventSite/static/js/main.a26a1f83.js.map"
   },
   "entrypoints": [
-    "static/css/main.26bfd8a4.css",
-    "static/js/main.8e4a4d16.js"
+    "static/css/main.9b776b6f.css",
+    "static/js/main.a26a1f83.js"
   ]
 }
