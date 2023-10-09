@@ -4,7 +4,7 @@
     margin-top: 75px;
     border-top: solid 1pt var(--dark-blue);
     background-color: var(--light-blue);
-    padding-bottom: 50px;
+    padding-bottom: 35px;
     height: auto;
     justify-content: center;
 }
@@ -13,7 +13,8 @@
     display: grid;
     grid-template-areas: 
     "logoHeader info"
-    "logos info";
+    "logos info"
+    "statement statement";
 
 }
 
@@ -40,6 +41,16 @@
 
 .footerLogos img{
     max-width: 130px;
+}
+
+.statement{
+    padding-top: 45px;
+    text-align: center;
+    justify-self: center;
+    grid-area: statement;
+    max-width: 600px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 @media screen and (max-width: 1165px) {

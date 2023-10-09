@@ -14,25 +14,3 @@
     margin-left: 25px;
 }
 
-.infoCards{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 582px);
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-@media screen and (max-width: 1165px) {
-
-    .infoCards{
-        grid-template-columns: repeat(auto-fill, 420px);
-    }
-
-    
-}
-
-@media screen and (max-width: 400px) {
-
-    .infoCards{
-        grid-template-columns: repeat(auto-fit, 330px);
-    }
-}
