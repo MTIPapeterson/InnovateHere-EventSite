@@ -3,7 +3,7 @@ import "./index.css"
 
 export default function InfoCards() {
   return (
-    <div className='infoCards' id="#schedule">
+    <div className='infoCards' id="schedule">
         <div>
             <h1 className='infoHeader'>Schedule</h1>
             <div className='infoMessage'>
