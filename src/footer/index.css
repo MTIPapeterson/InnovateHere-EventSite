@@ -1,12 +1,15 @@
 .footer{
+    display: grid;
+    overflow: hidden;
+    margin-top: 75px;
     border-top: solid 1pt var(--dark-blue);
     background-color: var(--light-blue);
     padding-bottom: 50px;
     height: auto;
+    justify-content: center;
 }
 
 .footerContainer{
-    margin-left: 70px;
     display: grid;
     grid-template-areas: 
     "logoHeader info"
@@ -14,25 +17,101 @@
 
 }
 
+.footerInfo{
+    margin-top: 30px;
+    width: 582px;
+    padding-left: 25px;
+    display: grid;
+    grid-area: info;
+    border-left: solid 1pt var(--dark-blue);
+}
+
 .logoHeader{
     grid-area: logoHeader;
 }
 
 .footerLogos{
+    width: 582px;
     grid-area: logos;
     display: grid;
     grid-template-columns: repeat(auto-fill, 150px);
     align-items: last baseline;
-    justify-content: center;
 }
 
 .footerLogos img{
     max-width: 130px;
 }
 
-@media screen and (max-width: 900px) {
-    .footerContainer{
-        margin-left: 15px;
+@media screen and (max-width: 1165px) {
+    .footerLogos{
+        max-width: 450px;
+        grid-template-columns: repeat(auto-fill, 100px);
     }
 
+    .footerLogos img{
+        max-width: 90px;
+    }
+
+    .footerInfo{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footerLogos{
+        margin-left: 15px;
+        max-width: 300px;
+        grid-template-columns: repeat(auto-fill, 100px);
+    }
+    .logoHeader{
+        max-width: 190px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .footerLogos img{
+        max-width: 90px;
+    }
+
+    .footerInfo{
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .footerLogos{
+        margin-left: 15px;
+        max-width: 190px;
+        grid-template-columns: repeat(auto-fill, 100px);
+    }
+    .logoHeader{
+        max-width: 190px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .footerLogos img{
+        max-width: 90px;
+    }
+
+    .footerInfo{
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .footerLogos{
+        width: 100px;
+        grid-template-columns: repeat(auto-fit, 60px);
+    }
+
+    .footerLogos img{
+        max-width: 50px;
+    }
+
+    .footerInfo{
+        width: 100px;
+    }
 }

@@ -2,6 +2,13 @@
     margin-bottom: 20px;
 }
 
+.infoCards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 582px);
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
 .infoMessage{
     margin-top: 0;
     color: var(--dark-blue);
@@ -13,6 +20,16 @@
     align-items: center;
 }
 
+.infoContact{
+    padding-top: 25px;
+    padding-left: 80px;
+    margin-top: 0;
+    color: var(--dark-blue);
+    border-left: solid 1pt var(--dark-blue);
+    max-width: 400px;
+    height: 175px;
+}
+
 .infoMessage h2 {
     max-width: 200px;
 }
@@ -20,5 +37,24 @@
 @media screen and (max-width: 500px) {
     .infoMessage{
         max-width: 330px;
+    }
+}
+
+@media screen and (max-width: 1165px) {
+
+    .infoCards{
+        grid-template-columns: repeat(auto-fill, 420px);
+    }
+ 
+}
+
+@media screen and (max-width: 400px) {
+
+    .infoCards{
+        grid-template-columns: repeat(auto-fit, 330px);
+    }
+
+    infoContact{
+        padding-left: 15px;
     }
 }

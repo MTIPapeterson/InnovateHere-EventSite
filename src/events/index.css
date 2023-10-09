@@ -1,5 +1,7 @@
 .eventContainer{
     border-bottom: solid 1px var(--dark-blue);
+    margin-left: 25px;
+    margin-right: 25px;
     display: grid;
     grid-template-areas: "title description";
     align-items: start;
@@ -18,12 +20,12 @@
 
 .eventDescription{
     grid-area: description;
-    max-width: 600px;
+    max-width: 650px;
     margin-top: 30px;
     padding-bottom:40px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1165px){
     .eventContainer{
         grid-template-areas: 
         "title" 

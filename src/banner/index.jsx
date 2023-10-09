@@ -16,7 +16,6 @@ export default function Banner() {
                 Pre-day cross-country skiing at Crosscut and VIP event with hearty hors d'oeurves and refreshments at Peach Street Studios with concert.
             </p>
         </div>
-
     </div>
   )
 }

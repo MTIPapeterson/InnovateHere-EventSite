@@ -24,8 +24,8 @@ function TitleCard({screenSize}){
 
 export default function Headerline({screenSize}) {
 return (
-    <div className='headline'>
-     <TitleCard screenSize={screenSize}/>
+    <div className='headline' id='headLine'>
+      <TitleCard screenSize={screenSize}/>
     </div>
   )
 }
