@@ -22,7 +22,7 @@ export default function Footer() {
             </div>
             <div className='statement'>
                 <p>
-                    The Montana Innovation Partnership (MTIP) is based at Montana State University TechLink Center. We are funded in part through a cooperative agreement with the U. S. Small Business Administration with additional funding from the Montana Department of Commerce
+                    The Montana Innovation Partnership (MTIP) is based at Montana State University TechLink Center. We are funded in part through a cooperative agreement with the U.S. Small Business Administration with additional funding from the Montana Department of Commerce
                 </p>
             </div>
         </div>

@@ -38,6 +38,8 @@ function App() {
         subHead={"Join us for:"} subDescription={"Origin Stories: Commercializing disruptive technologies – Business Showcase panel with 4 successful Montana tech firms in photonics, bio, and quantum. The Promise of Quantum for Interdisciplinary Discoveries. Q&A Roundtable: U.S. federal investments in quantum capabilities with DARPA, NSF, and NIH SBIR Program leaders."}/>
         <Event title={"Interactive skill-building streams"} description={"The skill-building workshops are designed to be highly interactive, providing participants with practical knowledge and hands-on experiences. By focusing on SBIR innovation, government contracting, and Intellectual Property for company formations, the series aims to empower entrepreneurs with the skills needed to navigate complex processes, secure funding, and protect their innovations in today's competitive business landscape. "}
         subHead={""} subDescription={""}/>
+        <Event title={"1-1 meetings with agency program officers and partners"} description={""}
+        subHead={""} subDescription={""}/>
         <Event title={"next-gen & Partner Showcase"} description={"We will also highlight Montana’s next-generation of leaders with opportunities for attendees to learn more about Code Girls United, the Montana Science Center, early entrepreneurial university ventures, as well as meet with Montana’s network of support organizations."}
         subHead={""} subDescription={""}/>
       </div>
