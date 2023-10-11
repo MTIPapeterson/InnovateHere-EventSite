@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/InnovateHere-EventSite/static/css/main.5b636473.css",
-    "main.js": "/InnovateHere-EventSite/static/js/main.01633f9c.js",
+    "main.css": "/InnovateHere-EventSite/static/css/main.5568f807.css",
+    "main.js": "/InnovateHere-EventSite/static/js/main.6377c20c.js",
     "static/media/Gambetta-VariableItalic.ttf": "/InnovateHere-EventSite/static/media/Gambetta-VariableItalic.00529312aac46dc1f1ac.ttf",
     "static/media/Satoshi-VariableItalic.ttf": "/InnovateHere-EventSite/static/media/Satoshi-VariableItalic.9519fea9567e2405bc08.ttf",
     "static/media/Satoshi-Variable.ttf": "/InnovateHere-EventSite/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
@@ -12,11 +12,11 @@
     "static/media/Titlecard_mid.svg": "/InnovateHere-EventSite/static/media/Titlecard_mid.e38845f04bdf235353b73d3a1710b182.svg",
     "static/media/tecklinkLogo.webp": "/InnovateHere-EventSite/static/media/tecklinkLogo.85b8c56bb1ac3b12e192.webp",
     "index.html": "/InnovateHere-EventSite/index.html",
-    "main.5b636473.css.map": "/InnovateHere-EventSite/static/css/main.5b636473.css.map",
-    "main.01633f9c.js.map": "/InnovateHere-EventSite/static/js/main.01633f9c.js.map"
+    "main.5568f807.css.map": "/InnovateHere-EventSite/static/css/main.5568f807.css.map",
+    "main.6377c20c.js.map": "/InnovateHere-EventSite/static/js/main.6377c20c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b636473.css",
-    "static/js/main.01633f9c.js"
+    "static/css/main.5568f807.css",
+    "static/js/main.6377c20c.js"
   ]
 }
