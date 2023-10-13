@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/InnovateHere-EventSite/static/css/main.5568f807.css",
-    "main.js": "/InnovateHere-EventSite/static/js/main.6377c20c.js",
-    "static/media/Gambetta-VariableItalic.ttf": "/InnovateHere-EventSite/static/media/Gambetta-VariableItalic.00529312aac46dc1f1ac.ttf",
-    "static/media/Satoshi-VariableItalic.ttf": "/InnovateHere-EventSite/static/media/Satoshi-VariableItalic.9519fea9567e2405bc08.ttf",
-    "static/media/Satoshi-Variable.ttf": "/InnovateHere-EventSite/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
-    "static/media/Gambetta-Variable.ttf": "/InnovateHere-EventSite/static/media/Gambetta-Variable.ec21cc58129f1c5c1527.ttf",
-    "static/media/MTIP_Logo.png": "/InnovateHere-EventSite/static/media/MTIP_Logo.8926b1195ca53bd1f5cd.png",
-    "static/media/Titlecard_mobile.svg": "/InnovateHere-EventSite/static/media/Titlecard_mobile.ea2b5a879f88f444cc9c04e86c7ad233.svg",
-    "static/media/Titlecard_wide.svg": "/InnovateHere-EventSite/static/media/Titlecard_wide.151d9dac1e05c393ffa3f7096d0e5e7a.svg",
-    "static/media/Titlecard_mid.svg": "/InnovateHere-EventSite/static/media/Titlecard_mid.e38845f04bdf235353b73d3a1710b182.svg",
-    "static/media/tecklinkLogo.webp": "/InnovateHere-EventSite/static/media/tecklinkLogo.85b8c56bb1ac3b12e192.webp",
-    "index.html": "/InnovateHere-EventSite/index.html",
-    "main.5568f807.css.map": "/InnovateHere-EventSite/static/css/main.5568f807.css.map",
-    "main.6377c20c.js.map": "/InnovateHere-EventSite/static/js/main.6377c20c.js.map"
+    "main.css": "/static/css/main.567983ed.css",
+    "main.js": "/static/js/main.40e825e7.js",
+    "static/media/Gambetta-VariableItalic.ttf": "/static/media/Gambetta-VariableItalic.00529312aac46dc1f1ac.ttf",
+    "static/media/Satoshi-VariableItalic.ttf": "/static/media/Satoshi-VariableItalic.9519fea9567e2405bc08.ttf",
+    "static/media/Satoshi-Variable.ttf": "/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
+    "static/media/Gambetta-Variable.ttf": "/static/media/Gambetta-Variable.ec21cc58129f1c5c1527.ttf",
+    "static/media/MTIP_Logo.png": "/static/media/MTIP_Logo.8926b1195ca53bd1f5cd.png",
+    "static/media/Titlecard_mobile.svg": "/static/media/Titlecard_mobile.ea2b5a879f88f444cc9c04e86c7ad233.svg",
+    "static/media/Titlecard_wide.svg": "/static/media/Titlecard_wide.151d9dac1e05c393ffa3f7096d0e5e7a.svg",
+    "static/media/Titlecard_mid.svg": "/static/media/Titlecard_mid.e38845f04bdf235353b73d3a1710b182.svg",
+    "static/media/tecklinkLogo.webp": "/static/media/tecklinkLogo.85b8c56bb1ac3b12e192.webp",
+    "index.html": "/index.html",
+    "main.567983ed.css.map": "/static/css/main.567983ed.css.map",
+    "main.40e825e7.js.map": "/static/js/main.40e825e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5568f807.css",
-    "static/js/main.6377c20c.js"
+    "static/css/main.567983ed.css",
+    "static/js/main.40e825e7.js"
   ]
 }
