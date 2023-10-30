@@ -1,0 +1,38 @@
+.scheduleHeader{
+    margin-left: 2rem;
+}
+
+.scheduleEvents{
+    display: flex;
+    overflow-y: scroll;
+    scrollbar-width: 11px;
+    scrollbar-color: rgba(0, 0, 0, .1);
+}
+
+.scheduleEvent{
+    margin-left: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: grid;
+    min-width: 15rem;
+    border-left: solid var(--dark-blue) 1px;
+}
+
+
+.scheduleEvents::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.scheduleEvents::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.scheduleEvents::-webkit-scrollbar:horizontal {
+    height: 11px;
+}
+
+.scheduleEvents::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .1);
+}
