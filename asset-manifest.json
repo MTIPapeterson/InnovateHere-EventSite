@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d9f4b957.css",
-    "main.js": "/static/js/main.e79f644f.js",
+    "main.js": "/static/js/main.d059a18c.js",
     "static/media/Gambetta-VariableItalic.ttf": "/static/media/Gambetta-VariableItalic.00529312aac46dc1f1ac.ttf",
     "static/media/Satoshi-VariableItalic.ttf": "/static/media/Satoshi-VariableItalic.9519fea9567e2405bc08.ttf",
     "static/media/Satoshi-Variable.ttf": "/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
@@ -13,10 +13,10 @@
     "static/media/tecklinkLogo.webp": "/static/media/tecklinkLogo.85b8c56bb1ac3b12e192.webp",
     "index.html": "/index.html",
     "main.d9f4b957.css.map": "/static/css/main.d9f4b957.css.map",
-    "main.e79f644f.js.map": "/static/js/main.e79f644f.js.map"
+    "main.d059a18c.js.map": "/static/js/main.d059a18c.js.map"
   },
   "entrypoints": [
     "static/css/main.d9f4b957.css",
-    "static/js/main.e79f644f.js"
+    "static/js/main.d059a18c.js"
   ]
 }
