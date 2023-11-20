@@ -1,11 +1,10 @@
 import React from 'react'
-import "./index.css"
 
 export default function InfoCards() {
   return (
-    <div className='contact' id="contact">
-        <h1 className='infoHeader'>Contact</h1>
-        <div className='infoContact'>
+    <div id="contact">
+        <h1>Contact</h1>
+        <div>
             <h3>Ann Peterson</h3>
             <p>406.994.7788</p>
             <a href='mailto: techlinksbir@montana.edu'>techlinksbir@montana.edu</a>

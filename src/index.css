@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root{
   --dark-blue: #0878FF;
   --light-blue: #E7F6FD;
@@ -22,67 +26,6 @@
 
 html{
   scroll-behavior: smooth;
+  background-color: #0c0c0c;
 }
 
-body{
-  margin: 0;
-}
-
-h1{
-  font-family: Satoshi-Variable;
-  font-size: 100px;
-  font-weight: 1;
-  line-height: 90px;
-}
-
-h2{
-  font-family: Satoshi-Variable;
-  text-transform: uppercase;
-  font-size: 32px;
-  font-weight: 300;
-}
-
-h3{
-  font-family: Satoshi-Variable;
-  font-weight: 600;
-}
-
-a{
-  font-family: Satoshi-Variable;
-  line-height: 24px;
-  text-decoration: none;
-  color: var(--dark-blue);
-}
-
-p{
-  font-family: Satoshi-Variable;
-  line-height: 24px;
-}
-
-.subHead1{
-  font-family: Gambetta-VariableItalic;
-  font-size: 40px;
-  font-weight: 400;
-}
-
-.subHead2{
-  font-family: Gambetta-VariableItalic;
-  font-size: 24px;
-  font-weight: 300;
-}
-
-@media screen and (max-width: 1165px) {
-
-  h1{
-    font-size: 90px;
-  }
-  
-}
-
-@media screen and (max-width: 400px) {
-
-  h1{
-    font-size: 80px;
-  }
-  
-}

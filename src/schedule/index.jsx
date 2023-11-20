@@ -1,5 +1,4 @@
 import React from 'react'
-import "./index.css"
 
 const events = [
   {
@@ -62,7 +61,7 @@ const events = [
 
 function Event({event}){
   return(
-    <div className='scheduleEvent'>
+    <div>
       <p>{event.category}</p>
       <h3>{event.title}</h3>
       <p>{event.description}</p>
@@ -73,9 +72,9 @@ function Event({event}){
 
 export default function Schedule() {
   return (
-    <div className='schedule' id='schedule'>
-      <h1 className='scheduleHeader'>Schedule</h1>
-      <div className='scheduleEvents'>
+    <div id="schedule">
+      <h1>Schedule</h1>
+      <div>
         {events.map(e => <Event event={e} key={e.title}/>)}
       </div>  
     </div>

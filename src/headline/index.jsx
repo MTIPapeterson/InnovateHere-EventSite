@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import "./index.css"
 import titlecard_wide from "./assets/Titlecard_wide.svg"
 import titlecard_mid from "./assets/Titlecard_mid.svg"
 import titlecard_mobile from "./assets/Titlecard_mobile.svg"
-
+import backgroundImage from "./assets/SplashImageTest.webp"
 
 function TitleCard({screenSize}){
     const [currentImage, setCurrentImage] = useState(titlecard_wide)
@@ -24,8 +23,20 @@ function TitleCard({screenSize}){
 
 export default function Headerline({screenSize}) {
 return (
-    <div className='headline' id='headLine'>
-      <TitleCard screenSize={screenSize}/>
-    </div>
+    <>
+      {/* <div className='bg-gradient-to-b fixed h-[2]'>
+      </div> */}
+      <div className="h-[100vh] grid bg-cover-image bg-cover text-white px-10" id='headLine'>
+          {/* <img className='' src={backgroundImage} alt="background Image"/> */}
+          <div className='mt-10'>
+            <h1 className='text-8xl font-[300]'>
+              Innovate Here 2024
+            </h1>
+            <h2 className='text-4xl font-[300] text-blue-highlight'>
+              March 7
+            </h2>
+          </div>  
+      </div>
+    </>
   )
 }
