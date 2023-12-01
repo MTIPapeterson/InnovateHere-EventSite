@@ -127,7 +127,7 @@ export default function Events() {
   return (
     <div className="grid grid-cols-5 mb-10" id="events">
       <h1 className="col-span-5 text-4xl mt-4 uppercase my-4">What to expect</h1>
-     {events.map((e) => <Event title={e.title} description={e.description} subHead={e.subHead} listItems={e.listItems} hasTable={e.hasTable}/>)}
+     {events.map((e) => <Event title={e.title} description={e.description} subHead={e.subHead} listItems={e.listItems} hasTable={e.hasTable} key={e.title}/>)}
     </div>
   )
 }
