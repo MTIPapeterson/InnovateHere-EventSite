@@ -5,7 +5,11 @@ module.exports = {
     extend: {
       colors:{
         "blue-black": "#0c0c0c",
-        "blue-highlight": "#0978FF"
+        "blue-highlight": "#0978FF",
+        "dark-blue": "#363759",
+        "transparent-blue-10": "rgba(57, 53, 187, 0.1)",
+        "transparent-blue-25": "rgba(57, 53, 187, 0.25)",
+        "bright-purple": "#c9c4ff"
       },
       fontFamily: {
         'satoshi': ["Satoshi-Variable", "san-serif"],

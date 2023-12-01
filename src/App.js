@@ -7,11 +7,12 @@ import InfoCards from './infoCard/index';
 import Footer from './footer/index';
 import Schedule from './schedule';
 
+
 function App() {
   
   const [screenSize, setScreenSize] = useState(window.innerWidth);
 
-    // Event listener to update screen size state when window is resized
+    // Event listener to update screen size state when window is resized *** 
   const handleResize = () => {
       setScreenSize(window.innerWidth);
   }; 
@@ -26,18 +27,19 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div>
       <NavBar/>
       <Headline screenSize={screenSize}/>
-    <div className="p-10 pt-0 font-satoshi bg-background-gradient bg-cover text-white">
-      <Banner/>
-      <Events/>
-      {/*<Schedule/>
-      <InfoCards/>
-      <Footer/> */}
+      <div className=" pt-0 font-satoshi bg-background-gradient bg-cover text-white">
+        <div className='p-4 lg:p-10 sm:p-4'>
+          <Banner/>
+          <Events/>
+          <Schedule/>
+          <InfoCards/>
+        </div>
+        <Footer/>
+      </div>
     </div>
-
-    </>
   );
 }
 

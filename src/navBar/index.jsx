@@ -10,7 +10,7 @@ function NavElement({title, location}){
 
 export default function NavBar() {
   return (
-    <div className='w-full uppercase sticky top-0 border-b-[1px] border-white border-solid bg-blue-black text-white'>
+    <div className='w-full uppercase sticky top-0 border-b-[1px] border-transparent-blue-25 border-solid bg-transparent-blue-25 backdrop-blur-lg text-white z-10'>
         <div className='grid grid-cols-5 mx-10'>
           <div className='col-span-2 flex'>
             <NavElement title="About" location="#about"/>
@@ -18,7 +18,7 @@ export default function NavBar() {
             <NavElement title="Schedule" location="#schedule"/>
           </div>
           <div className='col-end-6'>
-            <NavElement title="Register" location="#about"/>
+            <NavElement title="Contact" location="#contact"/>
           </div>
         </div>
        
