@@ -2,7 +2,7 @@
   "name": "site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://XanderBurger.github.io",
+  "homepage": "https://MTIPaperterson.github.io",
   "dependencies": {
     "@react-spring/web": "^9.7.3",
     "@testing-library/jest-dom": "^5.17.0",
