@@ -31,7 +31,7 @@ const events = [
   },
   {
     category: "Q&A Roundtable Panel",
-    title: "Private and U.S. federal investments in quantum capabilities - DARPA, NSF, NIH SBIR program officers, Private Equity/Angel firms ",
+    title: "Private and U.S. federal investments in quantum capabilities - Federal SBIR program officers",
     description: "",
     time: "10:55  - 11:25",
     link: ""

@@ -37,7 +37,7 @@ return (
             </h2>
 
             <div>
-              <h3 className='font-[100] self-end'>*Registration Start December 20</h3>
+              <h3 className='font-[100] self-end'>*Registration opening soon</h3>
             </div>
           </div>  
       </div>
