@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8b786adc.css",
-    "main.js": "/static/js/main.d027d091.js",
+    "main.js": "/static/js/main.9c20bff3.js",
     "static/media/SplashImageTest.webp": "/static/media/SplashImageTest.328f65b6773fa61ddef9.webp",
     "static/media/BackgroundGraident.png": "/static/media/BackgroundGraident.ff62e773b9aa062932b6.png",
     "static/media/Gambetta-VariableItalic.ttf": "/static/media/Gambetta-VariableItalic.00529312aac46dc1f1ac.ttf",
@@ -18,10 +18,10 @@
     "static/media/tecklinkLogo.webp": "/static/media/tecklinkLogo.85b8c56bb1ac3b12e192.webp",
     "index.html": "/index.html",
     "main.8b786adc.css.map": "/static/css/main.8b786adc.css.map",
-    "main.d027d091.js.map": "/static/js/main.d027d091.js.map"
+    "main.9c20bff3.js.map": "/static/js/main.9c20bff3.js.map"
   },
   "entrypoints": [
     "static/css/main.8b786adc.css",
-    "static/js/main.d027d091.js"
+    "static/js/main.9c20bff3.js"
   ]
 }
