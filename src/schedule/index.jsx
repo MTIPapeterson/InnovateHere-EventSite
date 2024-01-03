@@ -10,7 +10,7 @@ const events = [
   },
   {
     category: "Opening Address",
-    title: "",
+    title: "Dr. Alison Harmon - Vice President for Research and Economic Development",
     description: "",
     time: "9:10 - 9:30",
     link: ""

@@ -7,7 +7,7 @@ const events = [
     title: "key note speaker",
     description: "Keynote speakers will represent a diverse range of expertise within the bio, photonics, and quantum realms. Their presentations promise to provide attendees with a comprehensive understanding of the latest breakthroughs, challenges, and opportunities in these rapidly advancing fields, offering invaluable insights for startups and professionals alike.",
     subHead: "Highlighted guest speakers include:",
-    listItems: ["Gov. Gianforte", "Senators John Tester", "Senator Steve Daines", "Director Scott Osterman", "Bob Sutor, author Dancing with Qubits","Dr. Clarice Aiello, UCLA's Quantum Biology Lab - The Promise of Quantum for Interdisciplinary Discoveries ","Futurist and speaker on the creative intersection of technology & business and fostering the next generation innovators"],
+    listItems: ["Dr. Alison Harmon - Vice President for Research and Economic Development"],
    hasTable: false   
   },
 
