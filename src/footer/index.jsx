@@ -3,7 +3,7 @@ import msuLogo from "./assets/msuLogo.png"
 import MTIPLogo from "./assets/MTIP_Logo.png"
 import techlinkLogo from "./assets/tecklinkLogo.webp"
 import prosperaLogo from "./assets/prosperaLogo.svg"
-import MTBSALogo from "./assets/MTBSA-Logo-Color.png"
+import MTBSALogo from "./assets/MBSA_White.webp"
 
 export default function Footer() {
   return (
