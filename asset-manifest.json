@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8b786adc.css",
-    "main.js": "/static/js/main.19f22009.js",
+    "main.js": "/static/js/main.ede19fbb.js",
     "static/media/SplashImageTest.webp": "/static/media/SplashImageTest.328f65b6773fa61ddef9.webp",
     "static/media/BackgroundGraident.png": "/static/media/BackgroundGraident.ff62e773b9aa062932b6.png",
     "static/media/Gambetta-VariableItalic.ttf": "/static/media/Gambetta-VariableItalic.00529312aac46dc1f1ac.ttf",
@@ -9,20 +9,20 @@
     "static/media/Satoshi-Variable.ttf": "/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
     "static/media/Gambetta-Variable.ttf": "/static/media/Gambetta-Variable.ec21cc58129f1c5c1527.ttf",
     "static/media/coverImage.webp": "/static/media/coverImage.afefdb96ccf2d52c86c2.webp",
-    "static/media/MTBSA-Logo-Color.png": "/static/media/MTBSA-Logo-Color.8f72965c4ffcab104054.png",
     "static/media/MTIP_Logo.png": "/static/media/MTIP_Logo.19071234c43dc3cd7f9f.png",
     "static/media/prosperaLogo.svg": "/static/media/prosperaLogo.e5c108f4f4c946e127b03a2cbfcec186.svg",
     "static/media/Titlecard_mobile.svg": "/static/media/Titlecard_mobile.ea2b5a879f88f444cc9c04e86c7ad233.svg",
     "static/media/Titlecard_wide.svg": "/static/media/Titlecard_wide.151d9dac1e05c393ffa3f7096d0e5e7a.svg",
     "static/media/msuLogo.png": "/static/media/msuLogo.87a47d426aa7fc27b397.png",
     "static/media/Titlecard_mid.svg": "/static/media/Titlecard_mid.e38845f04bdf235353b73d3a1710b182.svg",
+    "static/media/MBSA_White.webp": "/static/media/MBSA_White.5e47243dc17216e99d8b.webp",
     "static/media/tecklinkLogo.webp": "/static/media/tecklinkLogo.85b8c56bb1ac3b12e192.webp",
     "index.html": "/index.html",
     "main.8b786adc.css.map": "/static/css/main.8b786adc.css.map",
-    "main.19f22009.js.map": "/static/js/main.19f22009.js.map"
+    "main.ede19fbb.js.map": "/static/js/main.ede19fbb.js.map"
   },
   "entrypoints": [
     "static/css/main.8b786adc.css",
-    "static/js/main.19f22009.js"
+    "static/js/main.ede19fbb.js"
   ]
 }
