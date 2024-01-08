@@ -4,6 +4,7 @@ import MTIPLogo from "./assets/MTIP_Logo.png"
 import techlinkLogo from "./assets/tecklinkLogo.webp"
 import prosperaLogo from "./assets/prosperaLogo.svg"
 import MTBSALogo from "./assets/MBSA_White.webp"
+import MTPQLogo from "./assets/MTPQ.webp"
 
 export default function Footer() {
   return (
@@ -28,6 +29,8 @@ export default function Footer() {
                         <img className="max-h-[75px] self-center" src={techlinkLogo} alt="techLink logo" />
                         <img className="max-w-[200px] self-center" src={prosperaLogo} alt="prospera logo" />
                         <img className="max-h-[75px] self-center" src={MTBSALogo} alt="MTBSA logo" />
+                        <img className="max-h-[75px] self-center" src={MTPQLogo} alt="MTPQ logo" />
+                        
                     </div>
                 </div>
             </div>
