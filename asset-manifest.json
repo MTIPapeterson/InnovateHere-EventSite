@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b786adc.css",
-    "main.js": "/static/js/main.1f806a0f.js",
+    "main.css": "/static/css/main.475ee1cc.css",
+    "main.js": "/static/js/main.0ca8524e.js",
     "static/media/SplashImageTest.webp": "/static/media/SplashImageTest.328f65b6773fa61ddef9.webp",
     "static/media/BackgroundGraident.png": "/static/media/BackgroundGraident.ff62e773b9aa062932b6.png",
     "static/media/Gambetta-VariableItalic.ttf": "/static/media/Gambetta-VariableItalic.00529312aac46dc1f1ac.ttf",
@@ -9,6 +9,10 @@
     "static/media/Satoshi-Variable.ttf": "/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
     "static/media/Gambetta-Variable.ttf": "/static/media/Gambetta-Variable.ec21cc58129f1c5c1527.ttf",
     "static/media/coverImage.webp": "/static/media/coverImage.afefdb96ccf2d52c86c2.webp",
+    "static/media/BobSutor.jpg": "/static/media/BobSutor.52905da6b1b932f2ddaa.jpg",
+    "static/media/Alison_Harmon_MSU_VPR.jpg": "/static/media/Alison_Harmon_MSU_VPR.d33718201ad0285d5a0c.jpg",
+    "static/media/Clarice_Aiello_400x400.jpg": "/static/media/Clarice_Aiello_400x400.0ae77674bbd2fc5cdf80.jpg",
+    "static/media/MT_DC_Logo.png": "/static/media/MT_DC_Logo.ca00a5c98c56a5a5cceb.png",
     "static/media/MTIP_Logo.png": "/static/media/MTIP_Logo.19071234c43dc3cd7f9f.png",
     "static/media/prosperaLogo.svg": "/static/media/prosperaLogo.e5c108f4f4c946e127b03a2cbfcec186.svg",
     "static/media/Titlecard_mobile.svg": "/static/media/Titlecard_mobile.ea2b5a879f88f444cc9c04e86c7ad233.svg",
@@ -16,14 +20,15 @@
     "static/media/msuLogo.png": "/static/media/msuLogo.87a47d426aa7fc27b397.png",
     "static/media/Titlecard_mid.svg": "/static/media/Titlecard_mid.e38845f04bdf235353b73d3a1710b182.svg",
     "static/media/MBSA_White.webp": "/static/media/MBSA_White.5e47243dc17216e99d8b.webp",
+    "static/media/American_Seen_Fund_Logo.webp": "/static/media/American_Seen_Fund_Logo.c7771a2dd6c976eae2d9.webp",
     "static/media/tecklinkLogo.webp": "/static/media/tecklinkLogo.85b8c56bb1ac3b12e192.webp",
     "static/media/MTPQ.webp": "/static/media/MTPQ.65c5c3056a06060fd754.webp",
     "index.html": "/index.html",
-    "main.8b786adc.css.map": "/static/css/main.8b786adc.css.map",
-    "main.1f806a0f.js.map": "/static/js/main.1f806a0f.js.map"
+    "main.475ee1cc.css.map": "/static/css/main.475ee1cc.css.map",
+    "main.0ca8524e.js.map": "/static/js/main.0ca8524e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b786adc.css",
-    "static/js/main.1f806a0f.js"
+    "static/css/main.475ee1cc.css",
+    "static/js/main.0ca8524e.js"
   ]
 }
