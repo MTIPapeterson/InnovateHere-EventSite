@@ -35,7 +35,6 @@ function App() {
         <div className='p-4 lg:p-10 sm:p-4'>
           <Banner/>
           <Events/>
-          <KeynoteBanner/>
           <Schedule/>
           <InfoCards/>
         </div>

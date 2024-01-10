@@ -1,14 +1,18 @@
 //eventContainer
 
 import { useState } from "react"
+import KeynoteBanner from "../keynote/keynoteBanner"
+
+const keynoteBanner = <KeynoteBanner/>
 
 const events = [
   {
-    title: "keynote speaker",
+    title: "keynote speakers",
     description: "Keynote speakers will represent a diverse range of expertise within the bio, photonics, and quantum realms. Their presentations promise to provide attendees with a comprehensive understanding of the latest breakthroughs, challenges, and opportunities in these rapidly advancing fields, offering invaluable insights for startups and professionals alike.",
     subHead: "Highlighted guest speakers include:",
-    listItems: ["Dr. Alison Harmon - Vice President for Research and Economic Development"],
-   hasTable: false   
+    listItems: [],
+   hasTable: false,
+   hasSpecial: true 
   },
 
   {
@@ -16,7 +20,8 @@ const events = [
     description: "These panels will provide a dynamic and interactive platform for conference attendees to engage with experts, share insights, and explore Montana’s key role in the foundation and future of bio, photonics, and quantum innovations. The topics covered in these sessions will look at the current landscape and future possibilities in these exciting and rapidly evolving fields.",
     subHead: "Join us for:",
     listItems: ["Origin Stories: Commercializing disruptive technologies", "Business Showcase panel with 4 successful Montana tech firms in photonics, bio, and quantum. The Promise of Quantum for Interdisciplinary Discoveries", "Q&A Roundtable: U.S. federal investments in quantum capabilities with DARPA, NSF, and NIH SBIR Program leaders"],
-   hasTable: false   
+   hasTable: false,
+   hasSpecial: false    
   },
 
   {
@@ -24,7 +29,8 @@ const events = [
     description: "The skill-building workshops are designed to be highly interactive, providing participants with practical knowledge and hands-on experiences. By focusing on SBIR innovation, government contracting, and Intellectual Property for company formations, the series aims to empower entrepreneurs with the skills needed to navigate complex processes, secure funding, and protect their innovations in today's competitive business landscape.",
     subHead: "",
     listItems: [],
-    hasTable: true 
+    hasTable: true,
+    hasSpecial: false
   },
 
   {
@@ -32,7 +38,8 @@ const events = [
     description: "Meet one-on-one with agency representatives to discuss how your technology aligns with their missions and identify next steps for participating in their SBIR or STTR program.",
     subHead: "",
     listItems: [],
-    hasTable: false   
+    hasTable: false,
+    hasSpecial: false    
   },
 
   {
@@ -40,12 +47,13 @@ const events = [
     description: "We will also highlight Montana's next-generation of leaders with opportunities for attendees to learn more about Code Girls United, the Montana Science Center, early entrepreneurial university ventures, as well as meet with Montana's network of support organizations.",
     subHead: "",
     listItems: [],
-    hasTable: false   
+    hasTable: false,
+    hasSpecial: false    
   },
 
 ]
 
-function Event({title, description, subHead, listItems, hasTable}){
+function Event({title, description, subHead, listItems, hasTable, hasSpecial}){
 
   const table = <div className="grid auto-cols gap-y-4">
     <div className="grid auto-rows-max">
@@ -90,7 +98,7 @@ function Event({title, description, subHead, listItems, hasTable}){
         <ul>
           {listItems.map(i => (<li key={i}> • {i}</li>))}
         </ul>
-        {hasTable && table}
+        {hasTable && table}  
       </div>
   </>
   
@@ -109,13 +117,13 @@ function Event({title, description, subHead, listItems, hasTable}){
     <div className="col-span-5 grid grid-cols-3 pr-4 border-t-[1px] py-4 border-dark-blue border-solid cursor-pointer" onClick={handleShow}>
         <h2 className="uppercase text-lg col-span-2">{title}</h2>
         <div className="col-span-1 justify-self-end">
-          {/* <svg  xmlns="http://www.w3.org/2000/svg" width="40" height="30" viewBox="0 0 95 52" fill="none">
-              <path d="M2 2.5L47.5 48L93 2.5" stroke="white" stroke-width="5"/>
-          </svg> */}
           <h3 className="text-lg font-[900] text-bright-purple">{showIcon}</h3>
         </div>
         <div className="col-span-3 text-[16px] lg:col-span-2 sm:col-span-3">
         {open && descriptionBody}
+        </div>
+        <div className="col-span-3 mb-6">
+        {open && hasSpecial && keynoteBanner}
         </div>
     </div>
   )
@@ -127,7 +135,7 @@ export default function Events() {
   return (
     <div className="grid grid-cols-5 mb-10" id="events">
       <h1 className="col-span-5 text-4xl mt-4 uppercase my-4">What to expect</h1>
-     {events.map((e) => <Event title={e.title} description={e.description} subHead={e.subHead} listItems={e.listItems} hasTable={e.hasTable} key={e.title}/>)}
+     {events.map((e) => <Event title={e.title} description={e.description} subHead={e.subHead} listItems={e.listItems} hasTable={e.hasTable} hasSpecial={e.hasSpecial} key={e.title}/>)}
     </div>
   )
 }
