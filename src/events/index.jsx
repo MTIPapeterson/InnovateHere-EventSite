@@ -4,7 +4,7 @@ import { useState } from "react"
 
 const events = [
   {
-    title: "key note speaker",
+    title: "keynote speaker",
     description: "Keynote speakers will represent a diverse range of expertise within the bio, photonics, and quantum realms. Their presentations promise to provide attendees with a comprehensive understanding of the latest breakthroughs, challenges, and opportunities in these rapidly advancing fields, offering invaluable insights for startups and professionals alike.",
     subHead: "Highlighted guest speakers include:",
     listItems: ["Dr. Alison Harmon - Vice President for Research and Economic Development"],

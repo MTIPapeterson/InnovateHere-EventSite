@@ -6,6 +6,7 @@ import Banner from './banner/index';
 import InfoCards from './infoCard/index';
 import Footer from './footer/index';
 import Schedule from './schedule';
+import KeynoteBanner from './keynote/keynoteBanner';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <div className='p-4 lg:p-10 sm:p-4'>
           <Banner/>
           <Events/>
+          <KeynoteBanner/>
           <Schedule/>
           <InfoCards/>
         </div>

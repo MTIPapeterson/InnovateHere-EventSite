@@ -5,6 +5,8 @@ import techlinkLogo from "./assets/tecklinkLogo.webp"
 import prosperaLogo from "./assets/prosperaLogo.svg"
 import MTBSALogo from "./assets/MBSA_White.webp"
 import MTPQLogo from "./assets/MTPQ.webp"
+import SeedFundLogo from "./assets/American_Seen_Fund_Logo.webp"
+import MT_DC from "./assets/MT_DC_Logo.png"
 
 export default function Footer() {
   return (
@@ -22,15 +24,17 @@ export default function Footer() {
             
             <div className='border-t-solid border-t-transparent-blue-25 border-t-[1px] col-span-3 mt-2 mb-4'>
                 <div className='pt-4'>
-                    <h3 className='text-bright-purple font-[700] text-center sm:text-center lg:text-left'>Thank you to our sponsors</h3>
-                    <div className='items-center gap-4 grid justify-center sm:justify-center lg:justify-start sm:grid lg:flex pt-2'>
+                    <h3 className='text-bright-purple font-[700] text-center mb-4'>Thank you to our sponsors</h3>
+                    <div className='items-center gap-6 grid justify-items-center sm:justify-items-center sm:grid pt-2 lg:grid-rows-2  
+                     lg:grid-flow-col'>
                         <img  className="max-w-[150px] self-center" src={MTIPLogo} alt="MTIP logo" />
                         <img className="max-w-[180px] self-center" src={msuLogo} alt="msu logo" />
                         <img className="max-h-[75px] self-center" src={techlinkLogo} alt="techLink logo" />
                         <img className="max-w-[200px] self-center" src={prosperaLogo} alt="prospera logo" />
                         <img className="max-h-[75px] self-center" src={MTBSALogo} alt="MTBSA logo" />
                         <img className="max-h-[75px] self-center" src={MTPQLogo} alt="MTPQ logo" />
-                        
+                        <img className="max-h-[75px] self-center" src={SeedFundLogo} alt="American Seed Fund logo" />
+                        <img className="max-h-[75px] self-center" src={MT_DC} alt="Montana DC logo" />
                     </div>
                 </div>
             </div>
