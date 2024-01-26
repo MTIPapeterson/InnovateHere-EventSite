@@ -7,19 +7,10 @@ const keynoteBanner = <KeynoteBanner/>
 
 const events = [
   {
-    title: "keynote speakers",
-    description: "Keynote speakers will represent a diverse range of expertise within the bio, photonics, and quantum realms. Their presentations promise to provide attendees with a comprehensive understanding of the latest breakthroughs, challenges, and opportunities in these rapidly advancing fields, offering invaluable insights for startups and professionals alike.",
-    subHead: "Highlighted guest speakers include:",
-    listItems: [],
-   hasTable: false,
-   hasSpecial: true 
-  },
-
-  {
     title: "Panel Discussions",
     description: "These panels will provide a dynamic and interactive platform for conference attendees to engage with experts, share insights, and explore Montana’s key role in the foundation and future of bio, photonics, and quantum innovations. The topics covered in these sessions will look at the current landscape and future possibilities in these exciting and rapidly evolving fields.",
-    subHead: "Join us for:",
-    listItems: ["Origin Stories: Commercializing disruptive technologies", "Business Showcase panel with 4 successful Montana tech firms in photonics, bio, and quantum. The Promise of Quantum for Interdisciplinary Discoveries", "Q&A Roundtable: U.S. federal investments in quantum capabilities with DARPA, NSF, and NIH SBIR Program leaders"],
+    subHead: "",
+    listItems: [],
    hasTable: false,
    hasSpecial: false    
   },
@@ -32,16 +23,6 @@ const events = [
     hasTable: true,
     hasSpecial: false
   },
-
-  {
-    title: "1-1 meetings with agency program officers and partners",
-    description: "Meet one-on-one with agency representatives to discuss how your technology aligns with their missions and identify next steps for participating in their SBIR or STTR program.",
-    subHead: "",
-    listItems: [],
-    hasTable: false,
-    hasSpecial: false    
-  },
-
   {
     title: "next-gen & Partner Showcase",
     description: "We will also highlight Montana's next-generation of leaders with opportunities for attendees to learn more about Code Girls United, the Montana Science Center, early entrepreneurial university ventures, as well as meet with Montana's network of support organizations.",
@@ -122,9 +103,6 @@ function Event({title, description, subHead, listItems, hasTable, hasSpecial}){
         <div className="col-span-3 text-[16px] lg:col-span-2 sm:col-span-3">
         {open && descriptionBody}
         </div>
-        <div className="col-span-3 mb-6">
-        {open && hasSpecial && keynoteBanner}
-        </div>
     </div>
   )
 }
@@ -134,7 +112,10 @@ export default function Events() {
 
   return (
     <div className="grid grid-cols-5 mb-10" id="events">
-      <h1 className="col-span-5 text-4xl mt-4 uppercase my-4">What to expect</h1>
+      <div className="col-span-5 my-10">
+      {keynoteBanner}
+      </div>
+     
      {events.map((e) => <Event title={e.title} description={e.description} subHead={e.subHead} listItems={e.listItems} hasTable={e.hasTable} hasSpecial={e.hasSpecial} key={e.title}/>)}
     </div>
   )

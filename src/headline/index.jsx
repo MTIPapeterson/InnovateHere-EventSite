@@ -41,7 +41,7 @@ return (
             </div>
             
               <div className='my-4'>
-                <a className="bg-transparent-blue-25 backdrop-blur-lg border-[2px] border-transparent-blue-25 border-solid p-4 rounded-xl text-[18px] lg:text-[24px] sm:text-[18px] uppercase hover:bg-blue-highlight" href="https://share.hsforms.com/10Olxqk0FTjOOnGJntMKfYQ4du3f" target='_blank' rel="noopener noreferrer">Register</a>
+                <a className="bg-transparent-blue-25 backdrop-blur-lg border-[2px] border-transparent-blue-25 border-solid p-4 rounded-xl text-[18px] lg:text-[24px] sm:text-[18px] uppercase hover:bg-blue-highlight" href="https://events.zoom.us/ev/AlvUjPjYYqEexVSPEcY3oFRrLPU15Tn0HBPE4ucqciHyIUtSLdJu~AqxSaPB-mO5iiOydiV4sjx8jP1ridHD-JQVszmvVellhC6lLyHVsmLaXZA" target='_blank' rel="noopener noreferrer">Register</a>
               </div>
           </div>  
       </div>

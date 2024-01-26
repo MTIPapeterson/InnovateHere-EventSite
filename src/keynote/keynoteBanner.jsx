@@ -6,9 +6,9 @@ import CA from "./assets/Clarice_Aiello_400x400.jpg"
 export default function KeynoteBanner() {
   return (
     <div className='grid grid-cols-3 gap-3'>
-        {/* <h2 className='col-span-3 uppercase text-4xl mb-0'>
+        <h2 className='col-span-3 uppercase text-4xl mb-0'>
             Keynote Speakers
-        </h2> */}
+        </h2>
         <div className='mt-4 bg-transparent-blue-10 backdrop-blur-lg rounded-3xl p-4 col-span-3 sm:col-span-3 lg:col-span-1 grid justify-items-center sm:justify-items-start lg:justify-items-center grid-cols-1 gap-0 sm:grid-cols-3 lg:grid-cols-1 '>
             <img className="rounded-full h-[170px] mb-4 border-[2px] border-transparent-blue-25 border-solid col-span-1 flex justify-self-center" src={CA} alt="Head shot of Clarice Aiello"/>
             <div className='col-span-2'>
