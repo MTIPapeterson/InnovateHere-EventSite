@@ -44,7 +44,7 @@ export default function Footer() {
                     The Montana Innovation Partnership (MTIP) is based at Montana State University TechLink Center. We are funded in part through a cooperative agreement with the U.S. Small Business Administration with additional funding from the Montana Department of Commerce
                 </p>
                 <a className='text-[14px] text-bright-purple w-[90%] sm:w-[90%] lg:w-[70%] pt-4 underline' href='https://www.montana.edu/legalcounsel/legal-privacy/index.html'>
-                We inherit MSU Privacy Policy as a program under MSU
+                Privacy Policy
                 </a>
             </div>
         </div>
