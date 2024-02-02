@@ -24,7 +24,7 @@ const events = [
   },
   {
     category: "KEYNOTE",
-    title: "Bob Sutor, VP and quantum advocate at Infleqtion and author of Dancing with Qubits",
+    title: "Clarice Aiello, Director UCLA's Quantum Biology Lab",
     description: "",
     time: "10:05 - 10:45",
     link: ""
@@ -45,7 +45,7 @@ const events = [
   },
   {
     category: "KEYNOTE",
-    title: "Clarice Aiello, Director UCLA's Quantum Biology Lab",
+    title: "Bob Sutor, VP and quantum advocate at Infleqtion and author of Dancing with Qubits",
     description: "",
     time: "1:00 - 1:45",
     link: ""

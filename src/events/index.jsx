@@ -53,10 +53,10 @@ function Event({title, description, subHead, listItems, hasTable, hasSpecial}){
        GovCon Track 
       </h3>
       <p className="border-solid p-2 border-[1px] border-transparent-blue-25">
-      Government contracting opportunities (MT APEX Accelerator) 
+      Working with the APEX Accelerators for government contracting
       </p>
       <p className="border-solid p-2 border-[1px] border-transparent-blue-25">
-      Small Business Certifications  
+      Transitioning research and development to government programs
       </p>
     </div>
     <div className="grid auto-rows-max">
