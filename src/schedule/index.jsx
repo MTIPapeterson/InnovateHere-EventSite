@@ -58,6 +58,13 @@ const events = [
     link: ""
   },
   {
+    category: "Keynote",
+    title: "Krishna Rupavatharam, Director of MSU Spectrum Lab",
+    description: "",
+    time: "2:30 - 3:00",
+    link: ""
+  },
+  {
     category: "NextGen Showcase",
     title: "Showcase areas will offer opportunities for attendees to speak with entrepreneurial support organizations, professional services firms, partners and other organizations driving innovation in Montana. ",
     description: "",
