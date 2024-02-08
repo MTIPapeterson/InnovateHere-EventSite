@@ -35,7 +35,7 @@ export default function KeynoteBanner() {
             <img className="rounded-full h-[170px] mb-4 border-[2px] border-transparent-blue-25 border-solid col-span-1 flex justify-self-center" src={KR} alt="Head shot of Krishna Rupavatharam"/>
             <div className='col-span-2'>
                 <h3 className='uppercase text-lg text-center sm:text-start lg:text-center mb-2'>Krishna Rupavatharam</h3>
-                <p className='text-bright-purple text-center sm:text-start lg:text-center font-[100]'>MSU's Spectrum Lab advances the opto-electronic technologies emerging from the research laboratories of Montana State University and foster their transition to Montana companies and provides enhanced educational opportunities for undergraduate and graduate students.</p>
+                <p className='text-bright-purple text-center sm:text-start lg:text-center font-[100]'>Spectrum Lab advances the opto-electronic technologies emerging from the research laboratories of Montana State University and foster their transition to Montana companies and provides enhanced educational opportunities for undergraduate and graduate students.</p>
             </div>
         </div>
     </div>
