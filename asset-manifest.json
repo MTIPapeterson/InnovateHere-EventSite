@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.5fee431f.css",
-    "main.js": "/static/js/main.ab2af5a9.js",
+    "main.css": "/static/css/main.bd520487.css",
+    "main.js": "/static/js/main.d7439ba3.js",
     "static/media/SplashImageTest.webp": "/static/media/SplashImageTest.328f65b6773fa61ddef9.webp",
     "static/media/BackgroundGraident.png": "/static/media/BackgroundGraident.ff62e773b9aa062932b6.png",
+    "static/media/Krishna Rupavatharam MSU Spectrum Lab.png": "/static/media/Krishna Rupavatharam MSU Spectrum Lab.1d3447f85aeef994143e.png",
     "static/media/Gambetta-VariableItalic.ttf": "/static/media/Gambetta-VariableItalic.00529312aac46dc1f1ac.ttf",
     "static/media/Satoshi-VariableItalic.ttf": "/static/media/Satoshi-VariableItalic.9519fea9567e2405bc08.ttf",
     "static/media/Satoshi-Variable.ttf": "/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
@@ -24,11 +25,11 @@
     "static/media/tecklinkLogo.webp": "/static/media/tecklinkLogo.85b8c56bb1ac3b12e192.webp",
     "static/media/MTPQ.webp": "/static/media/MTPQ.65c5c3056a06060fd754.webp",
     "index.html": "/index.html",
-    "main.5fee431f.css.map": "/static/css/main.5fee431f.css.map",
-    "main.ab2af5a9.js.map": "/static/js/main.ab2af5a9.js.map"
+    "main.bd520487.css.map": "/static/css/main.bd520487.css.map",
+    "main.d7439ba3.js.map": "/static/js/main.d7439ba3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fee431f.css",
-    "static/js/main.ab2af5a9.js"
+    "static/css/main.bd520487.css",
+    "static/js/main.d7439ba3.js"
   ]
 }
