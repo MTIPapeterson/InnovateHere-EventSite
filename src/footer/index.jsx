@@ -7,6 +7,7 @@ import MTBSALogo from "./assets/MBSA_White.webp"
 import MTPQLogo from "./assets/MTPQ.webp"
 import SeedFundLogo from "./assets/American_Seen_Fund_Logo.webp"
 import MT_DC from "./assets/MT_DC_Logo.png"
+import EidoTechLogo from "./assets/EidoTechLogo.webp"
 
 export default function Footer() {
   return (
@@ -35,6 +36,7 @@ export default function Footer() {
                         <img className="max-h-[75px] self-center" src={MTPQLogo} alt="MTPQ logo" />
                         <img className="max-h-[75px] self-center" src={SeedFundLogo} alt="American Seed Fund logo" />
                         <img className="max-h-[75px] self-center" src={MT_DC} alt="Montana DC logo" />
+                        <img className="max-h-[75px] self-center" src={EidoTechLogo} alt="the Eido Tech logo" />
                     </div>
                 </div>
             </div>
