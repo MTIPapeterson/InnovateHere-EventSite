@@ -39,13 +39,21 @@ function Event({title, description, subHead, listItems, hasTable, hasSpecial}){
   const table = <div className="grid auto-cols gap-y-4">
     <div className="grid auto-rows-max">
       <h3 className="font-[700] p-2 border-solid border-[1px] border-transparent-blue-25">
-        Innovation Track 
+      Innovation Track 1:  
+      </h3>
+      <p className="border-solid p-2 border-[1px] border-transparent-blue-25">
+      Getting Started with America's Seed Fund 
+      </p>
+      <p className="border-solid p-2 border-[1px] border-transparent-blue-25">
+      Getting Started with America's Seed Fund will offer you a look at the mission of the SBIR/STTR programs, how to identify agencies and topics that may align with your innovation, and critical steps to set you up for success.       </p>
+      <h3 className="font-[700] p-2 border-solid border-[1px] border-transparent-blue-25">
+      Innovation Track 2:  
       </h3>
       <p className="border-solid p-2 border-[1px] border-transparent-blue-25">
       Elements of winning proposals - preparing your investment pitch to a federal agency partner 
       </p>
       <p className="border-solid p-2 border-[1px] border-transparent-blue-25">
-      Understanding your market for “disruptive” technologies  
+      Winning proposals take time and preparation. Learn how to navigate the instructions, how proposals are reviewed, and the important elements that must be explained in your SBIR/STTR proposal.
       </p>
     </div>
     <div className="grid auto-rows-max">
