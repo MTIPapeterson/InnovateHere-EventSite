@@ -72,10 +72,10 @@ function Event({title, description, subHead, listItems, hasTable, hasSpecial}){
       Company formation  
       </h3>
       <p className="border-solid p-2 border-[1px] border-transparent-blue-25">
-      Intellectual Property for bioscience, computer software/algorithms... 
+      Intellectual Property concerns for new innovations
       </p>
       <p className="border-solid p-2 border-[1px] border-transparent-blue-25">
-      Fractional CXO's: when you're not ready to hire in-house  
+      Technology Transfer opportunities with Federal DoD Labs
       </p>
     </div>
   </div>
