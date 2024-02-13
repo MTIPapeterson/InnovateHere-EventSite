@@ -17,7 +17,7 @@ const events = [
   },
   {
     category: "Business Showcase Panels",
-    title: "Origin stories from 3-4 Successful Montana Tech firms",
+    title: "Origin stories from Successful Montana Tech firms",
     description: "",
     time: "9:30 - 10:00",
     link: ""

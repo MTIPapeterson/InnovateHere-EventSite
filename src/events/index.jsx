@@ -69,7 +69,7 @@ function Event({title, description, subHead, listItems, hasTable, hasSpecial}){
     </div>
     <div className="grid auto-rows-max">
       <h3 className="font-[700] p-2 border-solid border-[1px] border-transparent-blue-25">
-      Company formation  
+      Intellectual Property and Technology Transfer Track
       </h3>
       <p className="border-solid p-2 border-[1px] border-transparent-blue-25">
       Intellectual Property concerns for new innovations
