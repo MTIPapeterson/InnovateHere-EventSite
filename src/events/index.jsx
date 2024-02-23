@@ -14,7 +14,6 @@ const events = [
    hasTable: false,
    hasSpecial: false    
   },
-
   {
     title: "Break-Out Sessions",
     description: "The skill-building workshops are designed to be highly interactive, providing participants with practical knowledge and hands-on experiences. By focusing on SBIR innovation, government contracting, and Intellectual Property for company formations, the series aims to empower entrepreneurs with the skills needed to navigate complex processes, secure funding, and protect their innovations in today's competitive business landscape.",
@@ -31,7 +30,6 @@ const events = [
     hasTable: false,
     hasSpecial: false    
   },
-
 ]
 
 function Event({title, description, subHead, listItems, hasTable, hasSpecial}){
