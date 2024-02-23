@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bd520487.css",
-    "main.js": "/static/js/main.3ed953f5.js",
+    "main.js": "/static/js/main.567aba4a.js",
     "static/media/SplashImageTest.webp": "/static/media/SplashImageTest.328f65b6773fa61ddef9.webp",
     "static/media/BackgroundGraident.png": "/static/media/BackgroundGraident.ff62e773b9aa062932b6.png",
     "static/media/Krishna Rupavatharam MSU Spectrum Lab.png": "/static/media/Krishna Rupavatharam MSU Spectrum Lab.1d3447f85aeef994143e.png",
@@ -27,10 +27,10 @@
     "static/media/MTPQ.webp": "/static/media/MTPQ.65c5c3056a06060fd754.webp",
     "index.html": "/index.html",
     "main.bd520487.css.map": "/static/css/main.bd520487.css.map",
-    "main.3ed953f5.js.map": "/static/js/main.3ed953f5.js.map"
+    "main.567aba4a.js.map": "/static/js/main.567aba4a.js.map"
   },
   "entrypoints": [
     "static/css/main.bd520487.css",
-    "static/js/main.3ed953f5.js"
+    "static/js/main.567aba4a.js"
   ]
 }
